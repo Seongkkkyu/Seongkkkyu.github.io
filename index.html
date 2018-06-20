@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>블로그 테스트</title>
+
+    <!--구글폰트 불러오기-->
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Julius+Sans+One|Monoton|Montserrat+Alternates|Raleway|Sunflower:300" rel="stylesheet">
+    
+    <!--탭에 파비콘(이미지) 적용-->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+
+    <!--외부 css-->
+    <link rel="stylesheet" type="text/css" href="motion-css/motion-css-master/motion.css">
+    <link rel="stylesheet" type="text/css" href="motion-css/motion-css-master/motion.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--폰트 어썸 불러오기-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+    
+    <title>jaurim</title>
 </head>
 <body>
-    <h1>블로그 테스트</h1>
+    <!--container 시작-->
+    <div id="container">
+
+        <!--header 영역-->
+        <header>
+            <div id="header">
+
+                <!--logo 영역-->
+                <div id="logo">
+                    <h1><a href="index.html">jaurim</a></h1>
+                </div>
+
+                <!--menu 영역-->
+                <div id="menu">
+                    <ul>
+                        <li><a href="#about_page" class="scroll">about</a></li>
+                        <li><a href="#member" class="scroll">member</a></li>
+                        <li><a href="#album" class="scroll">album</a></li>
+                        <li><a href="#viedo_page" class="scroll">video</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!--main fullscreen 영역-->
+        <video autoplay muted loop id="video">
+                <source src="assets/bg.mp4" type="video/mp4">
+            </video>
+
+            <!--main center text 영역-->
+            <div class="center_text"> 
+                    <h2 class="animation clip-y-in">The Young Season.</h2>
+                </div>
+
+        <!--about 영역-->        
+        <div id="about_page">
+        
+            <div id="box1">
+                <h3 class="fadeinleft">jaurim</h3>
+                <h4 class="fadeinleft2">'대체불가능한 음악 세계를 가진 밴드'</h4>
+                <p class="fadeinleft3">자주색 비가 내리는 숲, <br/>자우림紫雨林은 1997년 데뷔한 이래 9장의 정규 앨범과 5장의 비정규 앨범을 발표한 한국을 대표하는 밴드이다.<br/>
+                    폭넓은 음악적 스펙트럼을 가진 자우림은 청춘과 인간, 사회에 관한 주제를 꾸준히 다루며 많은 팬들에게 지지를 받고 있다.</p>
+            </div>
+        </div>
+
+        <!--member 영역-->
+        <!--김윤아-->
+        <div id="member" class="fadeinleft0" style="background-image: url(img/about/yuna.png); background-size: cover">
+            <div id="box2" class="fadeinleft">
+                <h3 class="fadeinleft">대한민국의 싱어송라이터이자 록밴드 <span>자우림의 보컬리스트 김윤아</span></h3>
+                <p class="fadeinleft2">특유의 깨끗한 음색과 정확한 음감과 딕션(발음).
+                    <br/>곡마다 바뀌는 다채로운 창법이 트레이드마크. 가창력을 가지고 있다</p>
+            </div>
+        </div>
+        
+        <!--이선규-->
+        <div id="member" class="fadeinleft0" style="background-image: url(img/about/sunkyun.png); background-size: cover">
+            <div id="box3" class="fadeinleft">
+                <h3 class="fadeinleft">손가락으로 마음을 움직이는 <span>자우림의 기타리스트 이선규</span></h3>
+                <p class="fadeinleft2">섬세한 기타 실력으로 대중들의 시선을 집중 시키며, <br/>
+                    자우림의 리더로서 역할을 톡톡히 하고 있다.</p>
+               
+            </div>
+        </div>
+
+        <!--김진만-->
+        <div id="member" style="background-image: url(img/about/jinman.png); background-size: cover">
+            <div id="box2" class="fadeinleft">
+                <h3 class="fadeinleft">자우림에서 베이스를 맡고 있는 <span>자우림의 베이시스트 김진만</span></h3>
+                <p class="fadeinleft2">베이스의 깊은 매력과 그루브를 통해 <br/>자우림만의 스타일을 전파하고 있는 중요한 역할을 담당하고 있다.
+                    </p>
+            </div>
+        </div>
+
+        <!--앨범 영역-->
+        <div class="al" id="album">
+        <div class="blocks">
+            <div class="block">
+              <div class="overlay">
+                <img src="http://drh.img.digitalriver.com/DRHM/Storefront/Site/atvi/cm/images/site/play-button-overlay.png" alt="Play" />
+              </div>
+              <img src="img/album/16.jpg" alt="Image" />
+            </div>
+          
+            <div class="block">
+              <div class="overlay">
+                <img src="http://drh.img.digitalriver.com/DRHM/Storefront/Site/atvi/cm/images/site/play-button-overlay.png" alt="Play" />
+              </div>
+              <img src="img/album/15.jpg" alt="Image" />
+            </div>
+          
+            <div class="block">
+              <div class="overlay">
+                <img src="http://drh.img.digitalriver.com/DRHM/Storefront/Site/atvi/cm/images/site/play-button-overlay.png" alt="Play" />
+              </div>
+              <img src="img/album/14.jpg" alt="Image" />
+            </div>
+          
+            <div class="block">
+              <div class="overlay">
+                <img src="http://drh.img.digitalriver.com/DRHM/Storefront/Site/atvi/cm/images/site/play-button-overlay.png" alt="Play" />
+              </div>
+              <img src="img/album/13.jpg" alt="Image" />
+            </div>
+          </div>
+        </div>
+
+        <!--비디오-->
+        <div id="viedo_page">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4VxSjjtORb4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <!--footer 시작-->
+        <div id="footer">
+            <!--footer 로고-->
+            <a href="index.html">jaurim</a>
+
+            <ul id="sns">
+                <li><a href="https://twitter.com/JaurimOfficial" target = “_blank”><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="https://www.facebook.com/bandJAURIM" target = “_blank”><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="https://www.youtube.com/user/Jaurim" target = “_blank”><i class="fa fa-youtube-square"></i></a></li>
+                <li><a href="https://www.instagram.com/jaurim_official/" target = “_blank”><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <!--footer 저작권-->
+            <p>copyright ⓒ seongkkkyu all rights reserved</p>
+        
+        </div>
+
+    </div>
+
+<!--자바스크립트-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/script.js"></script>    
 </body>
 </html>
